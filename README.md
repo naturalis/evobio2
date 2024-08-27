@@ -8,13 +8,13 @@ For some exercises you need to edit and save plain text-files. In contrast to, e
 A specialized Zip/Unzip program may be easier to use than the standard Windows-functions for compressed folders. For Windows we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install compression software (zip is present by default).
 
 ## Homebrew - Mac only!
-[Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. Open a terminal window and run:
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-`git clone https://github.com/repository_name.git`\
-\
+[Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. To install Homebrew, open a terminal window and run:
+<pre> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" </pre>
+
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. On most modern day systems Java will be installed already. Check if this is the case for your system. If not install from [java.com](https://www.java.com/en/) 
+Some of the programs we use (Mesquite in particular) require Java. On most modern day systems Java will be installed already. Check if this is the case for your system. For Windows users: install from [java.com](https://www.java.com/en/). \
+For Mac users - if you are on 10.14 (Mojave) or earlier, install java-jre (open a terminal window and run): <pre> brew install java-jre </pre> if you are on 10.15 (Catalina) or later, install java-jdk (open a terminal window and run): <pre> brew install openjdk </pre>
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions. Note for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI! [Add Paup to your path for easy access](Paup_mac.sh) (Mac).
