@@ -5,7 +5,7 @@ https://phylosolutions.com/paup-test/
 https://phylosolutions.com/paup-test/paup4a168_osx.gz
 
 # Files are put in the Downloads folder (default): 
-unzip the downloaded file (just click on it)
+# unzip the downloaded file (just click on it)
 
 # Open a terminal window, move Paup to your apps folder
 # and make it executable:
