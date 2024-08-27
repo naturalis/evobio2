@@ -5,7 +5,7 @@ Instructions for setting up your computer for Evolution Biology 2 course of UL
 For some exercises you need to edit and save plain text-files. In contrast to, e.g., Word (which creates/edits rich text documents), a text editor reads and writes files that contain no hidden codes related to layout, formatting etc. For Windows-users we recommend [Notepad++.](https://notepad-plus-plus.org/) Download and install from notepad-plus-plus.org. For Mac: [Textmate](https://macromates.com/)
 
 ## File compression
-A specialized Zip/Unzip program may be easier to use than the standard Windows-functions for compressed folders. For Windows we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install compression software (zip is present by default).
+A dedicated archive utility may be better than default Windows-functionality for (de)compressing files/folders. For Windows we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install (de)compression software (zip is present by default).
 
 ## Homebrew - Mac only
 [Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. To install Homebrew, open a terminal window and run:
