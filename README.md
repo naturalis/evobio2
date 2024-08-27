@@ -5,8 +5,7 @@ Instructions for setting up your computer for Evolution Biology 2 course of UL
 For some exercises you need to edit and save plain text-files. In contrast to, e.g., Word (which creates/edits rich text documents), a text editor reads and writes files that contain no hidden codes related to layout, formatting etc. For Windows-users we recommend [Notepad++.](https://notepad-plus-plus.org/) Download and install from notepad-plus-plus.org. For Mac: [Textmate](https://macromates.com/)
 
 ## File compression
-A specialized Zip/Unzip program may be easier to use than the standard Windows-functions for compressed folders. Our recommendation: [7Zip.](https://7-zip.org/)
-For Mac: no need to install compression software (zip is present by default).
+A specialized Zip/Unzip program may be easier to use than the standard Windows-functions for compressed folders. For Windows we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install compression software (zip is present by default).
 
 ## Java
 Many of the programs we use run under Java. On most modern day systems Java will be installed already. Check if this is the case for your system. If not install from [java.com](https://www.java.com/en/) 
