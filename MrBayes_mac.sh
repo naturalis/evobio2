@@ -1,5 +1,5 @@
 # If Homebrew is not yet installed on your system
-# open a terminal window and type:
+# open a terminal window and execute:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install MrBayes
