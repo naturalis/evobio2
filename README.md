@@ -9,7 +9,7 @@ A specialized Zip/Unzip program may be easier to use than the standard Windows-f
 
 ## Homebrew - Mac only!
 [Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. Open a terminal window and run:
-'''/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'''
+'/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. On most modern day systems Java will be installed already. Check if this is the case for your system. If not install from [java.com](https://www.java.com/en/) 
