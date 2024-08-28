@@ -10,7 +10,7 @@ A dedicated archive utility may be better than default Windows-functionality for
 ## Homebrew - Mac only
 [Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. To install Homebrew, open a terminal window and run:
 <details>
-  <summary>Click to expand the code block</summary>
+  <summary></summary>
 ``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
 </details>
 
