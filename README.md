@@ -8,16 +8,22 @@ For some exercises you need to edit and save plain text-files. In contrast to, e
 As a dedicated archive utility for (de)compressing files/folders on Windows, we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install (de)compression software (zip is present by default).
 
 ## Homebrew -- *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. To install Homebrew, open a terminal window and run:
+[Homebrew](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way.  
+To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
-***Note:*** Xcode-select (git in particular) is required for installing Homebrew. If you are prompted that xcode-select is missing, accept, install and continue.
+***Note:*** Xcode-select (git in particular) is required for installing Homebrew.  
+If you are prompted that xcode-select is missing, accept, install and continue.
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. If missing, Windows users can install java from [java.com](https://www.java.com/en/).
+Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```.  
+  
+In case Java is missing: 
+- Windows users can install java from [java.com](https://www.java.com/en/).  
 
-For Mac users execute the following (you can use the same terminal window):
+- Mac users please execute (again using a terminal window):
 <pre><code>brew install java</code></pre>
-This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/).
+This will either install Java, or you'll get an error message that openjdk is not supported on your system.  
+In the latter case download from [java.com](https://www.java.com/en/).
 
 
 ## Paup
