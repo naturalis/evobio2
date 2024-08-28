@@ -9,7 +9,7 @@ A dedicated archive utility may be better than default Windows-functionality for
 
 ## Homebrew - Mac only
 [Homebrew.](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way. To install Homebrew, open a terminal window and run:
-``` /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" ```
+<pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. Often Java will be installed already. Check if this is the case for your system (open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```). If missing, Windows users can install java from [java.com](https://www.java.com/en/).
