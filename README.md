@@ -2,12 +2,14 @@
 Instructions for setting up your computer for Evolution Biology 2 course of UL
 
 ## Text editor
-For some exercises you need to edit and save plain text-files. In contrast to, e.g., Word (which creates/edits rich text documents), a text editor reads and writes files that contain no hidden codes related to layout, formatting etc.
-- Windows users are recommended to use [Notepad++.](https://notepad-plus-plus.org/) Download and install from notepad-plus-plus.org.
+Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically all script or configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line numbers and indentation. Anytime you need to modify input files for analyses during this course, please use a _text editor._
+- Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
 ## File compression
-As a dedicated archive utility for (de)compressing files/folders on Windows, we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install (de)compression software (zip is present by default).
+Software (packages) or files are often distributed in a compressed format. Reasons for compressing files can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas some formats are more OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). To allow the usage of in particular .zip files a dedicated archive utility for (de)compressing files/folders is useful.
+- Windows users are recommended to use [7Zip](https://7-zip.org/)
+- Mac users can use the archive utility (present by default)
 
 ## Homebrew -->  *Mac only*
 [Homebrew](https://brew.sh/) is a package manager for Mac. It will aid in installing (or removing) software in a structured way.  
