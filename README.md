@@ -1,13 +1,13 @@
 # EvoBio2
-Instructions for setting up your computer for Evolution Biology 2 course of UL
+Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Text editor
-Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically all script or configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line numbers and indentation. Anytime you need to modify input files for analyses during this course, please use a _text editor._
+Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to modify input files for analyses during this course, please use a _text editor._
 - Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
 ## File compression
-Software (packages) or files are often distributed in a compressed format. Reasons for compressing files can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas some formats are more OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). To allow the usage of in particular .zip files a dedicated archive utility for (de)compressing files/folders is useful.
+Software packages or files are often distributed in a compressed format. Reasons for compressing files can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
 - Mac users can use the archive utility (present by default)
 
@@ -19,11 +19,8 @@ To install Homebrew, open a terminal window and run:
 If you are prompted that xcode-select is missing, accept, install and continue.
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```.  
-  
-In case Java is missing: 
+Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing:
 - Windows users can install java from [java.com](https://www.java.com/en/).  
-
 - Mac users please execute (terminal window):
 <pre><code>brew install java</code></pre>
 This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/download/). Open the .dmg file. Probably you will get a warning that it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
