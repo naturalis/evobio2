@@ -37,6 +37,8 @@ A free and open-source program for manipulating datasets and trees (not for phyl
 - Windows users can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/MrBayes-3.2.7-WIN.zip) The 32 and 64 bit executables are in bin (e.g. C:\Program Files\MrBayes-3.2.7-WIN\bin\).
 - Mac users are advised to install MrBayes using Homebrew. Here's a [short instruction](MrBayes_mac.sh) (Mac)
 <pre><code>brew install mrbayes</code></pre>
+***Note*** due to a vast number of dependencies it can take a while to install MrBayes with Homebrew. In case it takes too long (or doesn't install at all) on older operating systems (like OSX) you might consider installing [MrBayes version 3.2.6](link_here)
+
 
 ## Geneious
 [Geneious](https://www.geneious.com/features/prime) is a commercial program to visually inspect chromatograms and manipulate sequence-data. For this course, dowload the fully functional [free trial-version](https://www.geneious.com/free-trial) (Geneious Prime 2024 as of this writing). This version expires in 30 days. Therefore, do not install too far in advance of the course! Sign up with your email address, download a version compatible with your OS, install and optionally add plug-ins (e.g. Clustal, NCBI, Paup).
