@@ -7,8 +7,8 @@ For some exercises you need to edit and save plain text-files. In contrast to, e
 ## File compression
 As a dedicated archive utility for (de)compressing files/folders on Windows, we recommend: [7Zip.](https://7-zip.org/) For Mac: no need to install (de)compression software (zip is present by default).
 
-## Homebrew -- *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for mac. It will aid in installing (or removing) software in a structured way.  
+## Homebrew -->  *Mac only*
+[Homebrew](https://brew.sh/) is a package manager for Mac. It will aid in installing (or removing) software in a structured way.  
 To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
 ***Note:*** Xcode-select (git in particular) is required for installing Homebrew.  
@@ -20,11 +20,10 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 In case Java is missing: 
 - Windows users can install java from [java.com](https://www.java.com/en/).  
 
-- Mac users please execute (again using a terminal window):
+- Mac users please execute (terminal window):
 <pre><code>brew install java</code></pre>
 This will either install Java, or you'll get an error message that openjdk is not supported on your system.  
 In the latter case download from [java.com](https://www.java.com/en/).
-
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions. Note for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI! [Add Paup to your path for easy access](Paup_mac.sh) (Mac).
