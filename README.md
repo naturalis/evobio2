@@ -22,8 +22,7 @@ In case Java is missing:
 
 - Mac users please execute (terminal window):
 <pre><code>brew install java</code></pre>
-This will either install Java, or you'll get an error message that openjdk is not supported on your system.  
-In the latter case download from [java.com](https://www.java.com/en/).
+This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/download/). Open the .pkg file. Most likely you will get a warning that it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions.  
