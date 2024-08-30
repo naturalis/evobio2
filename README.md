@@ -2,7 +2,7 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Text editor
-Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to modify input files for analyses during this course, please use a _text editor._
+Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, do not use a word processor, but please use a _text editor._
 - Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
@@ -12,9 +12,17 @@ Software packages or files are often distributed in a compressed format. Reasons
 - Mac users can use the archive utility (present by default)
 
 ## Homebrew -->  *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for Mac. It will aid in installing (or removing) software in a structured way.  
+[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing and removing software (and dependencies) on macOS.
+
+***Installing Homebrew is optional and might cause issues on older systems like OSX.***  
+
+On more recent systems (tested on 12.7.1 with Intel and 14.6.1 with ARM), it is a solid and reliable way to manage packages and dependencies and we recommend it as best practice.
+
 To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
+To install Homebrew, open a terminal window and run:
+<code>```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```</code>
+
 ***Note:*** Xcode-select (git in particular) is required for installing Homebrew.  
 If you are prompted that xcode-select is missing, accept, install and continue.
 
