@@ -40,8 +40,7 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 - Windows users can download java from [java.com](https://www.java.com/en/).  
 - Mac users can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
-On more recent systems (see [Homebrew](#Homebrew) this should install Java
-This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/download/). Open the .dmg file. Probably you will get a warning that it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
+On more recent systems (see remark under [Homebrew](#homebrew-----mac-only)) this should install Java. If you get an error message that openjdk is not supported on your system or when you decided not to use Homebrew, you can download the [standalone java installer](https://www.java.com/en/download/). Open the .dmg file. You will likely get a warning that says it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions.  
