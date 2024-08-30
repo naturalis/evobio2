@@ -40,6 +40,7 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 - Windows users can download java from [java.com](https://www.java.com/en/).  
 - Mac users can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
+On more recent systems (see [Homebrew](#Homebrew) this should install Java
 This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/download/). Open the .dmg file. Probably you will get a warning that it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
 ## Paup
