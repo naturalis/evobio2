@@ -2,7 +2,7 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Text editor
-Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, do not use a word processor, but please use a _text editor._
+Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, **do not** use a word processor, but please use a __text editor!__
 - Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
@@ -16,20 +16,29 @@ Software packages or files are often distributed in a compressed format. Reasons
 
 ***Installing Homebrew is optional and might cause issues on older systems like OSX.***  
 
-On more recent systems (tested on 12.7.1 with Intel and 14.6.1 with ARM), it is a solid and reliable way to manage packages and dependencies and we recommend it as best practice.
+On more recent systems (tested on 12.7.1 with Intel and 14.6.1 with ARM), it is a solid and reliable way to manage packages and dependencies and we recommend it as a best practice. Therefore these instructions will always provide the Homebrew command first (given that the packages are available there) and any alternatives thereafter.
 
 To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
-To install Homebrew, open a terminal window and run:
-<code>```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"```</code>
 
-***Note:*** Xcode-select (git in particular) is required for installing Homebrew.  
+***Note:***  Xcode-select (git in particular) is required for installing Homebrew.
 If you are prompted that xcode-select is missing, accept, install and continue.
 
+**Short list of useful Homebrew commands (run in the terminal):**
+|                                  |                                            |
+| -------------------------------- | ------------------------------------------ |
+| `brew commands`                  | Show all available commands                |
+| `brew list`                      | Show all installed packages                |
+| `brew search "packagename"`      | Search if package is on Homebrew           |
+| `brew info "packagename"`        | Show info like version number or dependencies |
+| `brew install "packagename"`     | Install the package on your system         |
+| `brew remove "packagename"`      | Remove the package from your system        |
+
+
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing:
-- Windows users can install java from [java.com](https://www.java.com/en/).  
-- Mac users please execute (terminal window):
+Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:
+- Windows users can download java from [java.com](https://www.java.com/en/).  
+- Mac users can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
 This will either install Java, or you'll get an error message that openjdk is not supported on your system. In the latter case download from [java.com](https://www.java.com/en/download/). Open the .dmg file. Probably you will get a warning that it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
