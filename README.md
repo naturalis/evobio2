@@ -29,8 +29,6 @@ Short list of [useful Homebrew commands](homebrew_command.md)
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
-
----
 - Windows users can download java from [java.com](https://www.java.com/en/).
 ---
 - Mac users **with** Homebrew can execute (in a terminal window):
@@ -43,7 +41,7 @@ Open the disk image (double-click the .dmg file). You will likely get a warning 
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
 - Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
 ---
-- Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)
+- Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)  
 Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your ~/Applications folder. Open a terminal and run:
 <pre><code>chmod a+x ~/Applications/paup4a168_osx</code></pre>
 For easy access you might add Paup to your path:  
@@ -56,15 +54,13 @@ A free and open-source program for manipulating datasets and trees (not for phyl
 
 ## MrBayes
 [MrBayes](https://nbisweden.github.io/MrBayes/index.html) is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters. The datasets analysed during this practical are small, so there is no need to install an MPI version of MrBayes (which takes longer to install/configure); please install a serial version. The releases below are obtained from the [MrBayes repository](https://github.com/NBISweden/MrBayes/releases).
-
----
 - Windows users can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/MrBayes-3.2.7-WIN.zip)  
 The 32 and 64 bit executables are in bin (e.g. ```C:\Program Files\MrBayes-3.2.7-WIN\bin\```).
 ---
 - Mac users **with** Homebrew can execute (in a terminal window):  
 <pre><code>brew install mrbayes</code></pre>
 ---
-- Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)
+- Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)  
 Open the zip archive (double-click the .gz file). Move ```mrbayes-3.2.7``` to your ~/Applications folder. Open a terminal window and run:
 <pre><code>cd ~/Applications/mrbayes-3.2.7
 ./configure
