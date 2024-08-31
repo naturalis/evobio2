@@ -40,9 +40,7 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 Open the disk image (double-click the .dmg file). You will likely get a warning that says it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
 ## Paup
-The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions.  
-
----
+The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
 - Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
 ---
 - Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)
