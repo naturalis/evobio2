@@ -57,11 +57,11 @@ For easy access you might add Paup to your path:
 ***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
-A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). Download from [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). The downloaded file will be either a zip-file (Windows) or a dmg-file (Mac), open it and extract the Mesquite-folder to a location where you can easily find and access (e.g Program Files on Windows or the Applications folder on Mac). The course instructions are tested for version 3.81.
+A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using (and have tested) version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
 - Windows users can download [Mesquite.3.81-Windows.zip](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81-Windows.zip)
 ---
 - Mac users can download [Mesquite.3.81_macOS_10.15_and_later.dmg](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81_macOS_10.15_and_later.dmg)  
-Open the disk image (double-click te .dmg file). Move ```Mesquite_Folder``` to your ~/Applications folder. When starting the application, probably another warning message will be shown to indicate that this application is from an unidentified developer. Again allow the install (see [java](#java)).
+Open the disk image (double-click te .dmg file). Move ```Mesquite_Folder``` to your ~/Applications folder. When starting the application, again you will likely get a warning that the package is from an unidentified developer. Allow installation as described under [Text editor](#text-editor)
 
 ## MrBayes
 [MrBayes](https://nbisweden.github.io/MrBayes/index.html) is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters. The datasets analysed during this practical are small, so there is no need to install an MPI version of MrBayes (which takes longer to install/configure); please install a serial version. The releases below are obtained from the [MrBayes repository](https://github.com/NBISweden/MrBayes/releases).
