@@ -12,11 +12,12 @@ Software packages or files are often distributed in a compressed format. Reasons
 - Mac users can use the archive utility (present by default)
 
 ## Homebrew -->  *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing and removing software (and dependencies) on macOS.
+[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing (updating) and removing software on macOS.
 
-***Installing Homebrew is optional and might cause issues on older systems like OSX.***  
+***Installing Homebrew is optional and might cause issues on outdated systems like OSX.***  
+All applications usded during this course can be installed **without** Homebrew.
 
-On more recent systems (tested on 12.7.1 with Intel and 14.6.1 with ARM), it is a solid and reliable way to manage packages and dependencies and we recommend it as a best practice. Therefore these instructions will always provide the Homebrew command first (given that the packages are available there) and any alternatives thereafter.
+If you are in the possession of a more recent system (tested on 12.7.1 with Intel and 14.6.1 with ARM) using a package manager is definitely advisable, because it is robust and secure way to manage and update packages, while automatically handling the complexities of dependency resolution for you. Even thought the available Homebrew formulae for this course are limited to Java and MrBayes we consider the usage of a package manager as a best practice. Therefore, when available, we will provide the Homebrew command first and alternative ways of installation thereafter.
 
 To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
@@ -30,9 +31,9 @@ If you are prompted that xcode-select is missing, accept, install and continue.
 | `brew commands`                  | Show all available commands                |
 | `brew list`                      | Show all installed packages                |
 | `brew search "packagename"`      | Search if package is on Homebrew           |
-| `brew info "packagename"`        | Show info like version number or dependencies |
+| `brew info "packagename"`        | Show info like version number and dependencies |
 | `brew install "packagename"`     | Install the package on your system         |
-| `brew remove "packagename"`      | Remove the package from your system        |
+| `brew uninstall "packagename"`   | Remove the package from your system        |
 
 
 ## Java
