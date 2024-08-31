@@ -4,21 +4,27 @@ Instructions for setting up your computer for Evolutionary Biology 2 course of U
 ## Text editor
 Text editors and word processors are two distinct types of software. Word processors (like MS Word or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, **do not** use a word processor, but please use a __text editor!__
 - Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
-- Mac users are recommended to use [Textmate](https://macromates.com/)  
-..probably the unidentified developer message will show up here as well.
+- Mac users are recommended to use [Textmate](https://macromates.com/)
+
+***Note:*** Upon installing or running new packages on Mac, you most certainly will get a warning telling that the package is from an unidentified developer. Allow the install via:
+```System Preferences -> Privacy & Security -> Open anyway.```
 
 ## File compression
 Software packages or files are often distributed in a compressed format. Reasons for compressing files can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
-- Mac users can use the archive utility (present by default)
+- Mac users can use the built-in Archive Utility
 
 ## Homebrew -->  *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing (updating) and removing software on macOS.
+[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing (updating) and removing software on macOS.  
 
-***Installing Homebrew is optional and might cause issues on outdated systems like OSX.***  
+---
+
+Installing Homebrew is ***optional*** and might cause issues on outdated systems like OSX.  
 All applications used during this course can be installed **without** Homebrew.
 
-If you are in the possession of a more recent system (tested on 12.7.1 with Intel and 14.6.1 with ARM) using a package manager is definitely advisable, because it is robust and secure way to manage and update packages, while handling the complexities of dependency resolution is done automatically. Even thought the available Homebrew formulae for this course are limited to Java and MrBayes we consider the usage of a package manager as a best practice. Therefore, when available, we will provide the Homebrew command first and alternative ways of installation thereafter.
+---
+
+If you have a more recent OS (tested on 12.7.1 with Intel and 14.6.1 with ARM) using Homebrew is highly recommended. Package managers handle dependency management automatically, ensuring that all necessary components are correctly installed and maintained without requiring manual intervention. Even though available Homebrew formulae for this course are limited to Java and MrBayes, we consider usage of a package manager as a best practice. Therefore, if available, we will always provide the Homebrew command before alternative installs.
 
 To install Homebrew, open a terminal window and run:
 <pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
