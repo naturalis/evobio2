@@ -25,16 +25,7 @@ To install Homebrew, open a terminal window and run:
 ***Note:***  Xcode-select (git in particular) is required for installing Homebrew.
 If you are prompted that xcode-select is missing, accept, install and continue.
 
-**Short list of useful Homebrew commands (run in the terminal):**
-|                                  |                                            |
-| -------------------------------- | ------------------------------------------ |
-| `brew commands`                  | Show all available commands                |
-| `brew list`                      | Show all installed packages                |
-| `brew search "packagename"`      | Search if package is on Homebrew           |
-| `brew info "packagename"`        | Show info like version number and dependencies |
-| `brew install "packagename"`     | Install the package on your system         |
-| `brew uninstall "packagename"`   | Remove the package from your system        |
-
+**[Short list of useful Homebrew commands](homebrew_command.md)**
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
