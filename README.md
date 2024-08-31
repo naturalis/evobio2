@@ -3,8 +3,8 @@ Instructions for setting up your computer for Evolutionary Biology 2 course of U
 
 ## Text editor
 Text editors and word processors are two distinct types of software. Word processors (like MS Word on Windows or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, **do not** use a word processor, but please use a __text editor!__
-- Windows users are recommended to install [Notepad++](https://notepad-plus-plus.org/)
-- Mac users are recommended to install [Textmate](https://macromates.com/)
+- Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
+- Mac users are recommended to use [Textmate](https://macromates.com/)
 
 ***Note:*** Upon installing or running new packages on Mac, you most certainly will get a warning telling that the package is from an unidentified developer. Allow the install via:
 ```System Preferences -> Privacy & Security -> Open anyway.```
