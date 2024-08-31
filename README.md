@@ -25,7 +25,7 @@ To install Homebrew, open a terminal window and run:
 ***Note:***  Xcode-select (git in particular) is required for installing Homebrew.
 If you are prompted that xcode-select is missing, accept, install and continue.
 
-**[Short list of useful Homebrew commands](homebrew_command.md)**
+Short list of [useful Homebrew commands](homebrew_command.md)
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
@@ -42,6 +42,11 @@ Open the disk image (double-click the .dmg file). You will likely get a warning 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions.  
 
+---
+- Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
+---
+- Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)
+Open the zip archive (double-click the .gz file).
 ***Note***  for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI! [Add Paup to your path](Paup_mac.md) for easy access (Mac).
 
 ## Mesquite
