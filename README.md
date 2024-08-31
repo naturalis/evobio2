@@ -40,6 +40,10 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 ---
 - Mac users **with** Homebrew can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
+To make the install findable:
+<pre><code>sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> $HOME/.bash_profile
+source ~/.bash_profile</code></pre>
 ---
 - Mac users **without** Homebrew can download a [standalone java installer](https://www.java.com/en/download/).  
 Open the disk image (double-click the .dmg file). Again you will likely get a warning that the package is from an unidentified developer. Allow installation as described under [Text editor](#text-editor)
