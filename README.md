@@ -37,7 +37,9 @@ If you are prompted that xcode-select is missing, accept, install and continue.
 
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:
+Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
+
+---
 - Windows users can download java from [java.com](https://www.java.com/en/).
 ---
 - Mac users **with** Homebrew can execute (in a terminal window):
