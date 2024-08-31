@@ -15,7 +15,7 @@ Software packages or files are often distributed in a compressed format. Reasons
 [Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing (updating) and removing software on macOS.
 
 ***Installing Homebrew is optional and might cause issues on outdated systems like OSX.***  
-All applications usded during this course can be installed **without** Homebrew.
+All applications used during this course can be installed **without** Homebrew.
 
 If you are in the possession of a more recent system (tested on 12.7.1 with Intel and 14.6.1 with ARM) using a package manager is definitely advisable, because it is robust and secure way to manage and update packages, while handling the complexities of dependency resolution is done automatically. Even thought the available Homebrew formulae for this course are limited to Java and MrBayes we consider the usage of a package manager as a best practice. Therefore, when available, we will provide the Homebrew command first and alternative ways of installation thereafter.
 
