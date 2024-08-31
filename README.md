@@ -51,7 +51,7 @@ Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to yo
 For easy access you might add Paup to your path:  
 <pre><code>sudo ln -s $(readlink -f ~/Applications/paup4a168_osx) /usr/local/bin</code></pre>
 
-***Note***  for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
+***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
 A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). Download from [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). The downloaded file will be either a zip-file (Windows) or a dmg-file (Mac), open it and extract the Mesquite-folder to a location where you can easily find and access (e.g Program Files on Windows or the Applications folder on Mac). The course instructions are tested for version 3.81.
