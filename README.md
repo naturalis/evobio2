@@ -46,8 +46,12 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
 - Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
 ---
 - Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)
-Open the zip archive (double-click the .gz file).
-***Note***  for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI! [Add Paup to your path](Paup_mac.md) for easy access (Mac).
+Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your ~/Applications folder. Open a terminal and run:
+<pre><code>chmod a+x ~/Applications/paup4a168_osx</code></pre>
+For easy access you might add Paup to your path:  
+<pre><code>sudo ln -s $(readlink -f ~/Applications/paup4a168_osx) /usr/local/bin</code></pre>
+
+***Note***  for Mac users: there is no graphical user interface (GUI) version for current operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
 A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). Download from [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). The downloaded file will be either a zip-file (Windows) or a dmg-file (Mac), open it and extract the Mesquite-folder to a location where you can easily find and access (e.g Program Files on Windows or the Applications folder on Mac). The course instructions are tested for version 3.81.
@@ -63,7 +67,7 @@ The 32 and 64 bit executables are in bin (e.g. ```C:\Program Files\MrBayes-3.2.7
 <pre><code>brew install mrbayes</code></pre>
 ---
 - Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)
-Open the zip archive (double-click the .gz file). Move the mrbayes-3.2.7 folder to ~/Applications. Open a terminal window and run:
+Open the zip archive (double-click the .gz file). Move ```mrbayes-3.2.7``` to your ~/Applications folder. Open a terminal window and run:
 <pre><code>cd ~/Applications/mrbayes-3.2.7
 ./configure
 make && sudo make install
