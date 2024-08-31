@@ -53,6 +53,7 @@ For easy access you might add Paup to your path:
 ## Mesquite
 A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). Download from [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). The downloaded file will be either a zip-file (Windows) or a dmg-file (Mac), open it and extract the Mesquite-folder to a location where you can easily find and access (e.g Program Files on Windows or the Applications folder on Mac). The course instructions are tested for version 3.81.
 - Windows users can download [Mesquite.3.81-Windows.zip](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81-Windows.zip)
+---
 - Mac users can download [Mesquite.3.81_macOS_10.15_and_later.dmg](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81_macOS_10.15_and_later.dmg)  
 Open the disk image (double-click te .dmg file). Move ```Mesquite_Folder``` to your ~/Applications folder. When starting the application, probably another warning message will be shown to indicate that this application is from an unidentified developer. Again allow the install (see [java](#java)).
 
