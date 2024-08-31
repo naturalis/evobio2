@@ -10,7 +10,7 @@ Text editors and word processors are two distinct types of software. Word proces
 ```System Preferences -> Privacy & Security -> Open anyway.```
 
 ## File compression
-Software packages or files are often distributed in a compressed format. Reasons for compressing files can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
+Software packages or files archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
 - Mac users can use the built-in Archive Utility
 
@@ -41,8 +41,8 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 - Mac users **with** Homebrew can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
 ---
-- Mac users **without** Homebrew can download the [standalone java installer](https://www.java.com/en/download/).  
-Open the disk image (double-click the .dmg file). You will likely get a warning that says it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
+- Mac users **without** Homebrew can download a [standalone java installer](https://www.java.com/en/download/).  
+Open the disk image (double-click the .dmg file). Again you will likely get a warning that the package is from an unidentified developer. Allow installation as described under [Text editor](#text-editor)
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
