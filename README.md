@@ -38,10 +38,13 @@ If you are prompted that xcode-select is missing, accept, install and continue.
 
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:
-- Windows users can download java from [java.com](https://www.java.com/en/).  
-- Mac users can execute (in a terminal window):
+- Windows users can download java from [java.com](https://www.java.com/en/).
+---
+- Mac users **with** Homebrew can execute (in a terminal window):
 <pre><code>brew install java</code></pre>
-On more recent systems (see remark under [Homebrew](#homebrew-----mac-only)) this should install Java. If you get an error message that openjdk is not supported on your system or when you decided not to use Homebrew, you can download the [standalone java installer](https://www.java.com/en/download/). Open the .dmg file. You will likely get a warning that says it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
+---
+- Mac users **without** Homebrew can download the [standalone java installer](https://www.java.com/en/download/).  
+Open the disk image (double-click the .dmg) file. You will likely get a warning that says it is from an unidentified developer. Allow the install via System Preferences -> Privacy & Security -> Open anyway. Run the installer.
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony. Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. Please [download the latest version](https://phylosolutions.com/paup-test/) for your OS (4.0a168 as of this writing). Install following the instructions.  
