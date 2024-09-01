@@ -13,7 +13,7 @@ Text editors and word processors are two distinct types of software. Word proces
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
 ## File compression
-Software packages or files archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats tend to be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
+Software packages or file archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats tend to be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
 - Mac users can use the built-in Archive Utility
 
