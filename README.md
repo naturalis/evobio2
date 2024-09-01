@@ -57,9 +57,9 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
 The 32 and 64 bit executables are in bin (e.g. ```C:\Program Files\MrBayes-3.2.7-WIN\bin\```).
 - Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)  
   Open the zip archive (double-click the .gz file).  
-  Move ```mrbayes-3.2.7``` to your ~/Applications folder.  
+  Move ```mrbayes-3.2.7``` to your /Applications folder.  
   Open a terminal window and run:  
-  <pre><code>cd ~/Applications/mrbayes-3.2.7
+  <pre><code>cd /Applications/mrbayes-3.2.7
   ./configure
   make && sudo make install
   </code></pre>
