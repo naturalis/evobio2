@@ -1,10 +1,10 @@
 # EvoBio2
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
-## Disclamer
+## Disclaimer
 Please note that while the software and provided links in this instructions have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.  
 None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings claiming that the dowloaded software is from unidentified developer, or that your OS prevented an unrecognized app from starting. The general way to bypass these messages:
-- on Windows --> select "More info" --> run anyway
+- on Windows --> select "More info" --> Run anyway
 - on Mac --> System Preferences -> Privacy & Security -> Open anyway.
 
 ## Text editor
@@ -26,11 +26,11 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
   users on 10.15 or later with x64 can download this [java jdk-22_macos-x64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg)  
   users on ARM systems a.k.a. M1/M2/M3 (tested on 14.6.1) can dowload [java jdk-22_macos-aarch64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-aarch64_bin.dmg)  
   
-Open the disk image (double-click the .dmg file). Again you will likely get a warning that the package is from an unidentified developer. Allow installation as described under [Text editor](#text-editor)
+  Open the disk image (double-click the .dmg file). Allow installation as described under [Disclaimer](#disclaimer)
 
 For archival purposes and troubleshooting, the above links are obtained from the Oracle download pages:
-[https://www.oracle.com/java/technologies/downloads/#jdk22-windows](https://www.oracle.com/java/technologies/downloads/#jdk22-windows)
-[https://www.oracle.com/java/technologies/downloads/#jdk22-mac](https://www.oracle.com/java/technologies/downloads/#jdk22-mac)
+[https://www.oracle.com/java/technologies/downloads/#jdk22-windows](https://www.oracle.com/java/technologies/downloads/#jdk22-windows)  
+[https://www.oracle.com/java/technologies/downloads/#jdk22-mac](https://www.oracle.com/java/technologies/downloads/#jdk22-mac)  
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
