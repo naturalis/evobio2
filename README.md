@@ -35,14 +35,13 @@ For archival purposes and troubleshooting, the above links are obtained from the
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
 - Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
----
 - Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)  
-Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your ~/Applications folder. Open a terminal and run:
-<pre><code>chmod a+x ~/Applications/paup4a168_osx</code></pre>
-For easy access you might add Paup to your path:  
-<pre><code>sudo ln -s $(readlink -f ~/Applications/paup4a168_osx) /usr/local/bin</code></pre>
+  Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your ~/Applications folder. Open a terminal and run:
+  <pre><code>chmod a+x ~/Applications/paup4a168_osx</code></pre>
+  For easy access you might add Paup to your path:  
+  <pre><code>sudo ln -s $(readlink -f ~/Applications/paup4a168_osx) /usr/local/bin</code></pre>
 
-***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system younger than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
+***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
 A free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using (and have tested) version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
