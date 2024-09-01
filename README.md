@@ -2,8 +2,8 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Disclaimer
-Please note that while the software and provided links in this instruction have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.  
-None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings along the lines of 'the dowloaded software is from unidentified developer', or that the operating system 'prevented an unrecognized app from starting'. The general way to continue installation despite these messages:
+Please note that while the software and provided links in this instruction have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.
+None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings along the lines of 'the dowloaded software is from unidentified developer', or the operating system 'prevented an unrecognized app from starting'. To continue installation:
 - Windows --> select "More info" --> Run anyway
 - Mac --> System Preferences -> Privacy & Security -> Open anyway.
 
@@ -13,17 +13,17 @@ Text editors and word processors are two distinct types of software. Word proces
 - Mac users are recommended to use [Textmate](https://macromates.com/)
 
 ## File compression
-Software packages or files archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
+Software packages or files archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats tend to be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
 - Mac users can use the built-in Archive Utility
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
-- Windows users can download java from [java.com](https://www.java.com/en/).
-- For Mac users, which version of java to download depends on your OS-version and sytem architecture (x64 or ARM):
+Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you should see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
+- Windows users can download java from [java.com](https://www.java.com/en/)
+- For Mac users, which version of java to download depends on your OS version and sytem architecture (x64 or ARM):
 
-  users on 10.14 or earlier (tested 10.13.6) [standalone java installer](https://www.java.com/en/download/).  
-  users on 10.15 or later with x64 can download this [java jdk-22_macos-x64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg)  
+  users on 10.14 or earlier (tested 10.13.6) can download the standalone [java installer](https://www.java.com/en/download/)  
+  users on 10.15 or later with x64 can download [java jdk-22_macos-x64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg)  
   users on ARM systems a.k.a. M1/M2/M3 (tested on 14.6.1) can dowload [java jdk-22_macos-aarch64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-aarch64_bin.dmg)  
   
   Open the disk image (double-click the .dmg file). Allow installation as described under [Disclaimer](#disclaimer)
@@ -34,7 +34,7 @@ For archival purposes and troubleshooting, the above links are obtained from the
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
-- Windows users can download [the Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
+- Windows users can download the [Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
 - Mac users can download the [command line binary](https://phylosolutions.com/paup-test/paup4a168_osx.gz)  
   Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your ~/Applications folder. Open a terminal and run:
   <pre><code>chmod a+x ~/Applications/paup4a168_osx</code></pre>
