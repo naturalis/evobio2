@@ -44,7 +44,7 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
 ***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
-Mesquite is a free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
+[Mesquite](https://www.mesquiteproject.org/home.html) is a free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
 - Windows users can download [Mesquite.3.81-Windows.zip](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81-Windows.zip)
 - Mac users can download [Mesquite.3.81_macOS_10.15_and_later.dmg](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81_macOS_10.15_and_later.dmg)  
 Open the disk image (double-click te .dmg file). Move the ```Mesquite_Folder``` to your ~/Applications folder (do not run the starter app from the mounted disk image). Allow installation as described under [disclaimer](#disclaimer)
@@ -54,11 +54,11 @@ Open the disk image (double-click te .dmg file). Move the ```Mesquite_Folder``` 
 - Windows users can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/MrBayes-3.2.7-WIN.zip)  
 The 32 and 64 bit executables are in bin (e.g. ```C:\Program Files\MrBayes-3.2.7-WIN\bin\```).
 - Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)  
-Open the zip archive (double-click the .gz file). Move ```mrbayes-3.2.7``` to your ~/Applications folder. Open a terminal window and run:
-<pre><code>cd ~/Applications/mrbayes-3.2.7
-./configure
-make && sudo make install
-</code></pre>
+  Open the zip archive (double-click the .gz file). Move ```mrbayes-3.2.7``` to your ~/Applications folder. Open a terminal window and run:
+  <pre><code>cd ~/Applications/mrbayes-3.2.7
+  ./configure
+  make && sudo make install
+  </code></pre>
 
 ## Geneious
 [Geneious](https://www.geneious.com/features/prime) is a commercial program to visually inspect chromatograms and manipulate sequence-data. For this course, dowload a fully functional [free trial-version](https://www.geneious.com/free-trial) (Geneious Prime 2024 as of this writing). This version expires in 30 days. Therefore, do not install too far in advance of the course! Sign up with your email address, download a version compatible with your OS, install and optionally add plug-ins (e.g. Clustal, NCBI, Paup).
