@@ -2,19 +2,15 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Disclamer
-Please note that while the software and provided links in this instructions have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.
-
-When installing software or apps from unidentified developers on Windows and macOS, you may encounter several security warnings designed to protect your system from potentially harmful software. None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. The packages and links provided in this instructions have been tested, work as intended and contain no malicious content.
-
-
+Please note that while the software and provided links in this instructions have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.  
+None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings claiming that the dowloaded software is from unidentified developer, or that your OS prevented an unrecognized app from starting. The general way to bypass these messages:
+- on Windows --> select "More info" --> run anyway
+- on Mac --> System Preferences -> Privacy & Security -> Open anyway.
 
 ## Text editor
 Text editors and word processors are two distinct types of software. Word processors (like MS Word on Windows or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, **do not** use a word processor, but please use a __text editor!__
 - Windows users are recommended to use [Notepad++](https://notepad-plus-plus.org/)
 - Mac users are recommended to use [Textmate](https://macromates.com/)
-
-***Note:*** Upon installing or running new packages on Mac, you most certainly will get a warning telling that the package is from an unidentified developer. Allow the install via:
-```System Preferences -> Privacy & Security -> Open anyway.```
 
 ## File compression
 Software packages or files archives are often distributed in a compressed format. Reasons for compression can be to reducee file size (less disk space, faster transfers), bundling mutliple files while preserving structure, or to warrant data intergrity. A commonly used format is .zip (Windows, Mac), whereas other formats can be OS specific: .rar, .7z (Windows) and .dmg, .tar.gz (Mac). In particular for (de)compressing .zip files dedicated software is useful.
