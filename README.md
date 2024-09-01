@@ -2,10 +2,10 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Disclaimer
-Please note that while the software and provided links in this instructions have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.  
-None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings claiming that the dowloaded software is from unidentified developer, or that your OS prevented an unrecognized app from starting. The general way to bypass these messages:
-- on Windows --> select "More info" --> Run anyway
-- on Mac --> System Preferences -> Privacy & Security -> Open anyway.
+Please note that while the software and provided links in this instruction have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.  
+None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings along the lines of 'the dowloaded software is from unidentified developer', or that the operating system 'prevented an unrecognized app from starting'. The general way to continue installation despite these messages:
+- Windows --> select "More info" --> Run anyway
+- Mac --> System Preferences -> Privacy & Security -> Open anyway.
 
 ## Text editor
 Text editors and word processors are two distinct types of software. Word processors (like MS Word on Windows or Textedit on Mac) are used for creating and editing _formatted_ text documents. Text editors however, can only create and edit plain text-files and are therefore ideal for coding. Basically scripts and configuration files are plain text-files. Often text-editors also have features like syntax highlighting, line number and indentation assistance. Anytime you need to create or modify input files for analyses during this course, **do not** use a word processor, but please use a __text editor!__
