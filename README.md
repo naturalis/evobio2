@@ -14,39 +14,20 @@ Software packages or files archives are often distributed in a compressed format
 - Windows users are recommended to use [7Zip](https://7-zip.org/)
 - Mac users can use the built-in Archive Utility
 
-## Homebrew -->  *Mac only*
-[Homebrew](https://brew.sh/) is a package manager for Mac. It simplifies the process of installing, managing (updating) and removing software on macOS.  
-
----
-
-Installing Homebrew is ***optional*** and might cause issues on outdated systems like OSX.  
-All applications used during this course can be installed **without** Homebrew.
-
----
-
-If you have a more recent OS (tested on 12.7.1 with Intel and 14.6.1 with ARM) using Homebrew is highly recommended. Package managers handle dependency management automatically, ensuring that all necessary components are correctly installed and maintained without requiring manual intervention. Even though available Homebrew formulae for this course are limited to Java and MrBayes, we consider usage of a package manager as a best practice. Therefore, if available, we will always provide the Homebrew command before alternative installs.
-
-To install Homebrew, open a terminal window and run:
-<pre><code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></pre>
-
-***Note:***  Xcode-select (git in particular) is required for installing Homebrew.
-If you are prompted that xcode-select is missing, accept, install and continue.
-
-Short list of [useful Homebrew commands](homebrew_command.md)
-
 ## Java
 Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you will see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
 - Windows users can download java from [java.com](https://www.java.com/en/).
----
-- Mac users **with** Homebrew can execute (in a terminal window):
-<pre><code>brew install java</code></pre>
-To make the install findable:
-<pre><code>sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
-echo 'export JAVA_HOME=$(/usr/libexec/java_home)' >> $HOME/.bash_profile
-source ~/.bash_profile</code></pre>
----
-- Mac users **without** Homebrew can download a [standalone java installer](https://www.java.com/en/download/).  
+- For Mac users, which version of java to download depends on your OS-version and sytem architecture (x64 or ARM):
+
+  users on 10.14 or earlier (tested 10.13.6) [standalone java installer](https://www.java.com/en/download/).  
+  users on 10.15 or later with x64 can download this [java jdk-22_macos-x64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg)  
+  users on ARM systems a.k.a. M1/M2/M3 (tested on 14.6.1) can dowload [java jdk-22_macos-aarch64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-aarch64_bin.dmg)  
+  
 Open the disk image (double-click the .dmg file). Again you will likely get a warning that the package is from an unidentified developer. Allow installation as described under [Text editor](#text-editor)
+
+For archival purposes and troubleshooting, the above links are obtained from the Oracle download pages:
+[https://www.oracle.com/java/technologies/downloads/#jdk22-windows](https://www.oracle.com/java/technologies/downloads/#jdk22-windows)
+[https://www.oracle.com/java/technologies/downloads/#jdk22-mac](https://www.oracle.com/java/technologies/downloads/#jdk22-mac)
 
 ## Paup
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
@@ -71,9 +52,6 @@ Open the disk image (double-click te .dmg file). Move ```Mesquite_Folder``` to y
 [MrBayes](https://nbisweden.github.io/MrBayes/index.html) is a program for Bayesian inference and model choice across a wide range of phylogenetic and evolutionary models. MrBayes uses Markov chain Monte Carlo (MCMC) methods to estimate the posterior distribution of model parameters. The datasets analysed during this practical are small, so there is no need to install an MPI version of MrBayes (which takes longer to install/configure); please install a serial version. The releases below are obtained from the [MrBayes repository](https://github.com/NBISweden/MrBayes/releases).
 - Windows users can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/MrBayes-3.2.7-WIN.zip)  
 The 32 and 64 bit executables are in bin (e.g. ```C:\Program Files\MrBayes-3.2.7-WIN\bin\```).
----
-- Mac users **with** Homebrew can execute (in a terminal window):  
-<pre><code>brew install mrbayes</code></pre>
 ---
 - Mac users **without** Homebrew can download [MrBayes version 3.2.7.](https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz)  
 Open the zip archive (double-click the .gz file). Move ```mrbayes-3.2.7``` to your ~/Applications folder. Open a terminal window and run:
