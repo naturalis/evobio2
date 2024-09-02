@@ -18,7 +18,7 @@ Software packages or file archives are often distributed in a compressed format.
 - Mac users can use the built-in Archive Utility
 
 ## Java
-Some of the programs we use (Mesquite in particular) require Java. To check if Java is already installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you should see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
+Some of the programs we use (Mesquite in particular) require Java. To check if Java (JDK only) is installed on your system: open a command prompt on Windows, or a terminal session on Mac, and type: ```java -version```. When installed, you should see something like 'java version x' or 'OpenJDK version y'. In case you see 'unable to locate' or 'no java runtime present' then Java is missing and should be installed:  
 - Windows users can download java from [java.com](https://www.java.com/en/)
 - For Mac users, which version of java to download depends on your OS version and sytem architecture (x64 or ARM):
 
