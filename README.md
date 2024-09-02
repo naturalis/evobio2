@@ -22,7 +22,7 @@ Some of the programs we use (Mesquite in particular) require Java. To check if J
 - Windows users can download java from [java.com](https://www.java.com/en/)
 - For Mac users, which version of java to download depends on your OS version and sytem architecture (x64 or ARM):
 
-  users on 10.14 or earlier (tested 10.13.6) can download the standalone [java installer](https://www.java.com/en/download/)  
+  users on 10.14 or older (tested 10.13.6) can download the standalone [java installer](https://www.java.com/en/download/)  
   users on 10.15 or later with x64 (tested on 12.7.1) can download [java jdk-22_macos-x64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-x64_bin.dmg)  
   users on ARM systems a.k.a. M1/M2/M3 (tested on 14.6.1) can dowload [java jdk-22_macos-aarch64_bin.dmg](https://download.oracle.com/java/22/latest/jdk-22_macos-aarch64_bin.dmg)  
   
