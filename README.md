@@ -2,7 +2,7 @@
 Instructions for setting up your computer for Evolutionary Biology 2 course of UL
 
 ## Disclaimer
-Please note that while the software and provided links in this instruction have been tested and shown to work as intended, we cannot assume any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.
+Please note that while the software and provided links in this instruction have been tested and shown to work as intended, we cannot accept any responsibility for any issues that may arise during installation or any potential damage to your system. Use at your own risk.
 None of the software used in this course is available through official channels like the Microsoft Store or Mac App Store. Consequently you will encounter security warnings along the lines of 'the downloaded software is from an unidentified developer', or the operating system 'prevented an unrecognized app from starting'. To continue installation:
 - Windows --> select "More info" --> Run anyway
 - Mac --> System Preferences -> Privacy & Security -> Open anyway.
@@ -36,7 +36,8 @@ For archival purposes and troubleshooting, the above links are obtained from the
 The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays this program does a lot more than just parsimony (i.e. distance, likelihood, model-testing). Paup was written nearly 4 decades ago by David Swofford, but infrequent updates are still released. The latest release information and download instructions are on [phylosulotions](https://phylosolutions.com/paup-test/). Please install the latest version (4.0a168 as of this writing) for your OS:
 - Windows users can download the [Paup executable](https://phylosolutions.com/paup-test/paup4-setup.msi)
 - Mac users can download the [paup4a168_osx.gz](https://phylosolutions.com/paup-test/paup4a168_osx.gz)  
-  Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your /Applications folder. Open a terminal and run:
+  Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your /Applications folder.  
+  Open a terminal and make Paup executable:
   <pre><code>chmod a+x /Applications/paup4a168_osx</code></pre>
   For easy access you might add Paup to your path:  
   <pre><code>sudo ln -s /Applications/paup4a168_osx /usr/local/bin</code></pre>
