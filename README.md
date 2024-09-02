@@ -48,7 +48,7 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
 - Windows users can download [Mesquite.3.81-Windows.zip](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81-Windows.zip)
 - Mac users can download [Mesquite.3.81_macOS_10.15_and_later.dmg](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81_macOS_10.15_and_later.dmg)  
   Open the disk image (double-click te .dmg file).  
-  Move the ```Mesquite_Folder``` to your ~/Applications folder (do not run the starter app from the mounted disk image).  
+  Move the ```Mesquite_Folder``` to your /Applications folder (do not run the starter app from the mounted disk image).  
   Allow installation as described under [disclaimer](#disclaimer)  
 
 ## MrBayes
