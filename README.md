@@ -39,7 +39,7 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
   Open the zip archive (double-click the .gz file). Move ```paup4a168_osx``` to your /Applications folder. Open a terminal and run:
   <pre><code>chmod a+x /Applications/paup4a168_osx</code></pre>
   For easy access you might add Paup to your path:  
-  <pre><code>sudo ln -s $(readlink -f /Applications/paup4a168_osx) /usr/local/bin</code></pre>
+  <pre><code>sudo ln -s /Applications/paup4a168_osx /usr/local/bin</code></pre>
 
   ***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
