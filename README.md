@@ -42,7 +42,7 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
   For easy access you might add Paup to your path:  
   <pre><code>sudo ln -s /Applications/paup4a168_osx /usr/local/bin</code></pre>
 
-  ***Note:***  There is no graphical interface (GU) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
+  ***Note:***  There is no graphical interface (GUI) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
 [Mesquite](https://www.mesquiteproject.org/home.html) is a free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
