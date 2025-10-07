@@ -45,6 +45,9 @@ The acronym stands for 'Phylogenetic Analysis Using Parsimony', but nowadays thi
   ***Note:***  There is no graphical interface (GUI) for current Mac operating systems (i.e. any system more recent than 10.14, roughly the end of 2019). But don't worry, the command line is always faster than the GUI!
 
 ## Mesquite
+The instructions below were written for last year's course (2025). They were tested and should work as shown. However, the most current release of [Mesquite is 4.01](https://github.com/MesquiteProject/MesquiteCore/releases). This version has not yet been tested for this course, but the bug fixes are expected to be beneficial. If you feel adventurous, you can use [these instructions](https://www.mesquiteproject.org/Installation.html) to install this latest version. For additional information you can also checkout the [Mesquite youtube channel](https://www.youtube.com/channel/UCfSmgC0O_dWLI0PEoXZbS4Q).  
+      
+***Last year's instructions:***  
 [Mesquite](https://www.mesquiteproject.org/home.html) is a free and open-source program for manipulating datasets and trees (not for phylogeny reconstruction!). The latest release information and download instructions are on [MesquiteProject](https://github.com/MesquiteProject/MesquiteCore/releases). For this course we will be using version 3.81. Please install or add the Mesquite-folder to a proper location (i.e. Program Files on Windows or Applications folder on Mac). 
 - Windows users can download [Mesquite.3.81-Windows.zip](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81-Windows.zip)
 - Mac users can download [Mesquite.3.81_macOS_10.15_and_later.dmg](https://github.com/MesquiteProject/MesquiteCore/releases/download/v3.81-build955/Mesquite.3.81_macOS_10.15_and_later.dmg)  
